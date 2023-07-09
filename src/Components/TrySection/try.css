@@ -1,0 +1,110 @@
+#try{
+    width: 100%;
+    height: 550px;
+    /* border: 2px solid grey; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 3px solid white; */
+    background-color: #310e68;
+    background-image: linear-gradient(to right,rgb(9,2,15), rgb(34,11,56),rgb(0, 0, 0));
+}
+#try1{
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    /* border: 3px solid white; */
+    height: 450px;
+    text-align: left;
+   
+   
+}
+#try2{
+    width: 40%;
+    /* border: 3px solid white; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    object-fit:contain;
+}
+#try2>img{
+   
+   width: 90%;
+   cursor: pointer;
+  
+}
+
+#try2>img:hover{
+   
+   width: 80%;
+  
+}
+#try1 h1{
+    font-size: 40px;
+    color: white;
+ }
+ #try1 p{
+     color: rgb(162,158,162);
+     font-size: 18px;
+ }
+ #buttonss{
+    
+        width: 140px;
+        height: 55px;
+        border-radius: 25px;
+        background-color:rgb(161,38,241) ;
+        color: white;
+        border: none;
+        font-size: 16px;
+        padding: 4px;
+        /* padding: 10px; */
+    
+ }
+ #buttonss:hover{
+    background-color:rgb(93, 8, 150) ;
+    color: whitesmoke;
+    /* border: 3px solid white; */
+}
+
+@media (max-width: 790px) {
+  
+    #try{
+      
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-evenly;
+        
+        height: auto;
+       padding: 20px;
+        
+    }
+    #try1 h1{
+       font-size: 30px;
+       color: white;
+       padding: 10px;
+    }
+    #try1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+         align-items: start;
+         justify-content: space-around;
+         /* border: 3px solid white; */
+         height: auto;
+         text-align: left;
+        gap: 20px;
+        
+     }
+     #try1 p{
+        font-size: 15px;
+     }
+     #buttonss{
+        width:100px ;
+     }
+     #try2> img{
+        width: 100%;
+     }
+}
