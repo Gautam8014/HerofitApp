@@ -1,5 +1,5 @@
 # HerofitApp
-<img align="right" alt="Coding" width="100%" src="/src/Components/Images/Annotation 2023-07-10 030913.png"> <br/>
+<img align="right" alt="Coding" width="100%" src="/src/Components/Images/Annotation 2023-07-10 030913.png"> <br> <br> <br>
 <h3>HeroFit is a fitness app that provides subscription services for various gym franchises. Users can sign up and log in to access the app's features. One standout feature is the built-in music player, allowing users to listen to music while working out. The app offers different subscription durations of 3, 6, 9, and 12 months.</h3>
 
 <h3 ><u>key Features:</u></h3>
